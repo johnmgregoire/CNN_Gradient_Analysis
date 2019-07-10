@@ -5,8 +5,12 @@ Code primarily written by Mitustaro Umehara with conttributions from Dan Guevarr
 <TBD>
 
 
-
 ## Instructions for model traning and analysis in Jupyter notebook
+
+### Option 1: launch cloud environment using Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnmgregoire/CNN_Gradient_Analysis/master?filepath=code.ipynb)
+
+### Option 2: setup local environment using Anaconda
 
 Code has been tested on 64-bit Windows with Python 3.6, using a virtual environment created with conda 4.5.11 from the open source Anaconda Distribution available at: https://www.anaconda.com/
 
@@ -22,13 +26,13 @@ Code has been tested on 64-bit Windows with Python 3.6, using a virtual environm
 
     `conda activate myenv`
 
-4. Launch a local (by default) Jupyter server instance to view and run the `code_v5.ipynb` notebook file located in the repository folder.
+4. Launch a local (by default) Jupyter server instance to view and run the `code.ipynb` notebook file located in the repository folder.
 
     `jupyter notebook`
 
 
 
-### List of installed package versions in environment
+#### List of installed package versions in environment
 ```
 # Name                    Version                   Build  Channel
 _tflow_select             2.2.0                     eigen  
